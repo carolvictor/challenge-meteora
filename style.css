@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+
+.imagem_logo {
+    padding: 13px 40px 13px 23px;
+}
+
+.cabecalho__menu__links {
+    display: flex;   
+    gap: 40px;
+    
+}
+
+.cabecalho__menu__link__link {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+}
