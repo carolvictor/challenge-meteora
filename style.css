@@ -21,8 +21,7 @@ body {
 
 .cabecalho__menu__links {
     display: flex;   
-    gap: 40px;
-    
+    gap: 40px;    
 }
 
 .cabecalho__menu__link__link {
@@ -31,4 +30,33 @@ body {
     font-size: 16px;
     color: #FFF;
     text-decoration: none;
+}
+
+.pesquisa {
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    top: 1;
+    right: 0;
+    padding: 0 23px;      
+}
+
+.pesquisa__texto {
+    padding: 0 0 0 15px;
+    width: 170px;
+    height: 38px;
+    color: #6C757D;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;    
+}
+
+.pesquisa__botao {
+    background-color: #000000;
+    padding: 9px 12px;
+    border: 1px solid #FFFFFF;        
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
 }
