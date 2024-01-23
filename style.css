@@ -64,10 +64,16 @@ sbody {
 
 @media (max-width: 391px) {
 .cabecalho {
-    display: flex;
+    position: relative;
+    }
 }
 
 .pesquisa {
-    position: auto;
+    padding: 0 0 0 5px;
+    top: 130%;
+    position: absolute;
+    left: 0;
+    
+   
 }        
-}
+
